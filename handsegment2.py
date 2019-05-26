@@ -6,6 +6,12 @@ import cv2
 #]
 
 
+
+
+
+
+
+
 def handsegment(frame):
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     #lower, upper = boundaries[0]
